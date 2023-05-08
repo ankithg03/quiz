@@ -8,6 +8,9 @@
   height: 50px;
   width: 150px;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .category:hover {
