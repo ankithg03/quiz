@@ -82,7 +82,7 @@ class GameBoard extends React.Component {
   selectCategory(category) {
     let words = [];
     switch (category.split(" ")[0]) {
-      case "Superheroes":
+      case "Hollywood":
         words = Constants.Superheroes;
         break;
       case "Naruto":
@@ -90,6 +90,12 @@ class GameBoard extends React.Component {
         break;
       case "Movies":
         words = Constants.Movies;
+        break;
+      case "Anime":
+        words = Constants.Anime
+        break;
+      case "GOT":
+        words = Constants.GOT
         break;
       default:
         words = [];
